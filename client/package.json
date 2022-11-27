@@ -9,7 +9,8 @@
   },
   "proxy": "http://localhost:3000",
   "scripts": {
-    "start": "PORT=4000 react-scripts start"
+    "start": "PORT=4000 react-scripts start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build"
   },
   "eslintConfig": {
     "extends": [
